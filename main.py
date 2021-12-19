@@ -1,3 +1,5 @@
+from pdf417 import encode, render_image
+
 def gen(lastName, middleName, firstName, gender, state, iin, street, city, zip, dob, expire, issue, licNum, classif, revision, restriction, endorsenet, discriminator, inventory, audit, eyes, hairs, feet, in_, weight, veteran, organDonor):
 	header = "@\x0A\x1E\x0D"
 	oheader = "@\\n\\x1E\\n"
